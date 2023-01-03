@@ -40,6 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="194dp"
             android:importantForAccessibility="no"
+            android:scaleType="centerCrop"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -79,7 +80,7 @@
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@id/dog_age"
-            tools:text="Age: 7" />
+            tools:text="Hobbies: 7" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
